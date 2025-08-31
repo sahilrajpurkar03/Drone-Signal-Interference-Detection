@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mission>
+    <General Version="RMIX_2016-09-30-1">
+        <ConfigItem Name="missionConfig" Type="0">
+            <ConfigItem Name="general" Type="0">
+                <ConfigItem Name="title" Type="3" Val="Aaronia_to_MATLAB"/>
+            </ConfigItem>
+            <ConfigItem Name="security" Type="0">
+                <ConfigItem Name="passwword" Type="3" Val=""/>
+                <ConfigItem Name="protected" Type="6" Val="0"/>
+                <ConfigItem Name="showConfig" Type="6" Val="0"/>
+                <ConfigItem Name="lockConfig" Type="6" Val="0"/>
+            </ConfigItem>
+        </ConfigItem>
+    </General>
+    <Data>
+        <MainWindow/>
+        <Bases>
+            <Base Factory="Factory_BlockEditor" Name="Base_BlockEditor" Title="BlockGraphEditor" IsRTSABlock="0">
+                <ConfigItem Name="Base_BlockEditor_config" Type="0">
+                    <ConfigItem Name="bProtectViewWidget" Type="6" Val="0"/>
+                </ConfigItem>
+            </Base>
+            <Base Factory="Factory_FileReader" Name="Block_FileReader_0" Title="File Reader" IsRTSABlock="1">
+                <ConfigItem Name="Block_FileReader_0_config" Type="0">
+                    <ConfigItem Name="bProtectViewWidget" Type="6" Val="0"/>
+                    <ConfigItem Name="settings" Type="0">
+                        <ConfigItem Name="title" Type="3" Val="File Reader"/>
+                        <ConfigItem Name="shortDesc" Type="3" Val=""/>
+                    </ConfigItem>
+                    <ConfigItem Name="main" Type="0">
+                        <ConfigItem Name="filename" Type="4" Val="C:/Users/rajpurkar/Documents/Aaronia AG/Aaronia RTSA-Suite PRO/Exports/DJI TELLO.rtsa" RVal="C:/Users/rajpurkar/Documents/Aaronia AG/Aaronia RTSA-Suite PRO/Exports/DJI TELLO.rtsa"/>
+                        <ConfigItem Name="fileindex" Type="7" Val="0"/>
+                        <ConfigItem Name="reload" Type="8" Val="0"/>
+                        <ConfigItem Name="startposition" Type="2" Val="0"/>
+                        <ConfigItem Name="endposition" Type="2" Val="1"/>
+                        <ConfigItem Name="playbackmode" Type="7" Val="0"/>
+                        <ConfigItem Name="playbackspeed" Type="2" Val="0.3104559588128356"/>
+                        <ConfigItem Name="playbutton" Type="8" Val="41"/>
+                    </ConfigItem>
+                    <ConfigItem Name="view" Type="0">
+                        <ConfigItem Name="background" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="powerunit" Type="7" Val="0"/>
+                        <ConfigItem Name="fontsize" Type="1" Val="10"/>
+                        <ConfigItem Name="gridmode" Type="7" Val="3"/>
+                        <ConfigItem Name="gridcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiscolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiswidth" Type="2" Val="1"/>
+                        <ConfigItem Name="axisscale" Type="2" Val="1"/>
+                        <ConfigItem Name="chartcolor" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="absolutetime" Type="6" Val="0"/>
+                        <ConfigItem Name="showcolorhistogram" Type="6" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="legend" Type="0">
+                        <ConfigItem Name="placement" Type="7" Val="0"/>
+                        <ConfigItem Name="color" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="areacolor" Type="11" Val="#ff000040"/>
+                        <ConfigItem Name="bordercolor" Type="11" Val="#ffc0c0c0"/>
+                        <ConfigItem Name="scale" Type="2" Val="1"/>
+                        <ConfigItem Name="showdate" Type="6" Val="1"/>
+                        <ConfigItem Name="showtype" Type="6" Val="1"/>
+                        <ConfigItem Name="showcenter" Type="6" Val="1"/>
+                        <ConfigItem Name="showspan" Type="6" Val="1"/>
+                        <ConfigItem Name="showrbw" Type="6" Val="1"/>
+                        <ConfigItem Name="showbins" Type="6" Val="1"/>
+                        <ConfigItem Name="showlocation" Type="6" Val="0"/>
+                        <ConfigItem Name="showantenna" Type="6" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="Block_FileReader_0_FileReader" Type="0">
+                        <ConfigItem Name="poweroffset" Type="2" Val="0"/>
+                        <ConfigItem Name="timeoffset" Type="2" Val="0"/>
+                        <ConfigItem Name="setlocation" Type="6" Val="0"/>
+                        <ConfigItem Name="latitude" Type="2" Val="0"/>
+                        <ConfigItem Name="longitude" Type="2" Val="0"/>
+                        <ConfigItem Name="azimuth" Type="2" Val="0"/>
+                        <ConfigItem Name="declination" Type="2" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="colormap" Type="0">
+                        <ConfigItem Name="opacity" Type="2" Val="1"/>
+                        <ConfigItem Name="low" Type="2" Val="0"/>
+                        <ConfigItem Name="high" Type="2" Val="1"/>
+                        <ConfigItem Name="control" Type="0">
+                            <ConfigItem Name="cvalue0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue3" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor3" Type="2" Val="0.5"/>
+                        </ConfigItem>
+                        <ConfigItem Name="num" Type="1" Val="1"/>
+                        <ConfigItem Name="repeat" Type="1" Val="1"/>
+                        <ConfigItem Name="mirror" Type="6" Val="0"/>
+                        <ConfigItem Name="centered" Type="6" Val="0"/>
+                        <ConfigItem Name="brightness" Type="2" Val="0"/>
+                        <ConfigItem Name="conrast" Type="2" Val="0"/>
+                        <ConfigItem Name="saturation" Type="2" Val="0"/>
+                        <ConfigItem Name="bandsize" Type="1" Val="0"/>
+                        <ConfigItem Name="palette" Type="7" Val="0"/>
+                        <ConfigItem Name="clipfloor" Type="6" Val="1"/>
+                        <ConfigItem Name="highlightceeil" Type="6" Val="0"/>
+                        <ConfigItem Name="autoadjust" Type="7" Val="1"/>
+                    </ConfigItem>
+                    <ConfigItem Name="wcolormap" Type="0">
+                        <ConfigItem Name="opacity" Type="2" Val="1"/>
+                        <ConfigItem Name="low" Type="2" Val="0"/>
+                        <ConfigItem Name="high" Type="2" Val="1"/>
+                        <ConfigItem Name="control" Type="0">
+                            <ConfigItem Name="cvalue0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue3" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor3" Type="2" Val="0.5"/>
+                        </ConfigItem>
+                        <ConfigItem Name="num" Type="1" Val="1"/>
+                        <ConfigItem Name="repeat" Type="1" Val="1"/>
+                        <ConfigItem Name="mirror" Type="6" Val="0"/>
+                        <ConfigItem Name="centered" Type="6" Val="0"/>
+                        <ConfigItem Name="brightness" Type="2" Val="0"/>
+                        <ConfigItem Name="conrast" Type="2" Val="0"/>
+                        <ConfigItem Name="saturation" Type="2" Val="0"/>
+                        <ConfigItem Name="bandsize" Type="1" Val="0"/>
+                        <ConfigItem Name="palette" Type="7" Val="0"/>
+                        <ConfigItem Name="clipfloor" Type="6" Val="1"/>
+                        <ConfigItem Name="highlightceeil" Type="6" Val="0"/>
+                        <ConfigItem Name="autoadjust" Type="7" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+                <Inputs>
+                    <Input Name="Input_FileReader_Sync_0" Title="Sync" Owner="Block_FileReader_0"/>
+                </Inputs>
+                <Outputs>
+                    <Output Name="Input_FileReader_Spectra_0" Title="Stream" Owner="Block_FileReader_0">
+                        <Connections>
+                            <Connection Name="Input_Http_Stream_0" Title="Stream" Owner="Block_HTTPServer_0"/>
+                            <Connection Name="Input_Spectran_Spectra_0" Title="Spectra" Owner="Block_Waterfall_0"/>
+                            <Connection Name="Input_Spectran_Spectra_0" Title="Spectra" Owner="Block_Waterfall_3D_0"/>
+                            <Connection Name="Input_Spectran_Spectra_0" Title="Spectra" Owner="Block_Spectrum_0"/>
+                        </Connections>
+                    </Output>
+                </Outputs>
+            </Base>
+            <Base Factory="Factory_Http_Server" Name="Block_HTTPServer_0" Title="HTTP Server" IsRTSABlock="1">
+                <ConfigItem Name="Block_HTTPServer_0_config" Type="0">
+                    <ConfigItem Name="bProtectViewWidget" Type="6" Val="0"/>
+                    <ConfigItem Name="settings" Type="0">
+                        <ConfigItem Name="title" Type="3" Val="HTTP Server"/>
+                        <ConfigItem Name="shortDesc" Type="3" Val=""/>
+                        <ConfigItem Name="port" Type="1" Val="54664"/>
+                        <ConfigItem Name="features" Type="3" Val=""/>
+                        <ConfigItem Name="synchclock" Type="6" Val="0"/>
+                        <ConfigItem Name="usehttps" Type="6" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="main" Type="0"/>
+                    <ConfigItem Name="view" Type="0" Expanded="1">
+                        <ConfigItem Name="background" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="powerunit" Type="7" Val="0"/>
+                        <ConfigItem Name="fontsize" Type="1" Val="10"/>
+                    </ConfigItem>
+                </ConfigItem>
+                <Inputs>
+                    <Input Name="Input_Http_Stream_0" Title="Stream" Owner="Block_HTTPServer_0"/>
+                </Inputs>
+            </Base>
+            <Base Factory="Factory_Waterfall" Name="Block_Waterfall_0" Title="Waterfall" IsRTSABlock="1">
+                <ConfigItem Name="Block_Waterfall_0_config" Type="0">
+                    <ConfigItem Name="bProtectViewWidget" Type="6" Val="0"/>
+                    <ConfigItem Name="settings" Type="0">
+                        <ConfigItem Name="title" Type="3" Val="Waterfall"/>
+                        <ConfigItem Name="shortDesc" Type="3" Val=""/>
+                    </ConfigItem>
+                    <ConfigItem Name="main" Type="0">
+                        <ConfigItem Name="compression" Type="2" Val="100"/>
+                        <ConfigItem Name="dynamiccompression" Type="6" Val="0"/>
+                        <ConfigItem Name="compressionmode" Type="7" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="view" Type="0" Expanded="1">
+                        <ConfigItem Name="background" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="powerunit" Type="7" Val="0"/>
+                        <ConfigItem Name="fontsize" Type="1" Val="10"/>
+                        <ConfigItem Name="profile" Type="13" Val=""/>
+                        <ConfigItem Name="acceptprofile" Type="6" Val="1"/>
+                        <ConfigItem Name="gridmode" Type="7" Val="3"/>
+                        <ConfigItem Name="gridcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiscolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiswidth" Type="2" Val="1"/>
+                        <ConfigItem Name="axisscale" Type="2" Val="1"/>
+                        <ConfigItem Name="chartcolor" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="absolutetime" Type="6" Val="0"/>
+                        <ConfigItem Name="showpowerfrequency" Type="6" Val="0"/>
+                        <ConfigItem Name="showpowertime" Type="6" Val="0"/>
+                        <ConfigItem Name="showcolorhistogram" Type="6" Val="0"/>
+                        <ConfigItem Name="showconditions" Type="6" Val="0"/>
+                        <ConfigItem Name="showpeakstable" Type="7" Val="0"/>
+                        <ConfigItem Name="showantennaindex" Type="6" Val="0"/>
+                        <ConfigItem Name="inverttimeaxis" Type="6" Val="0"/>
+                        <ConfigItem Name="highlightantennaindex" Type="7" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="cursor" Type="0">
+                        <ConfigItem Name="mousemode" Type="9" Val="1"/>
+                        <ConfigItem Name="showoverlay2" Type="7" Val="1"/>
+                        <ConfigItem Name="axislabels" Type="6" Val="1"/>
+                        <ConfigItem Name="centered" Type="6" Val="0"/>
+                        <ConfigItem Name="crosswidth" Type="2" Val="1"/>
+                        <ConfigItem Name="borderwidth" Type="2" Val="0"/>
+                        <ConfigItem Name="outsideblend" Type="2" Val="0.3"/>
+                        <ConfigItem Name="backcolor" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="frontcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="bordercolor" Type="11" Val="#ffffff00"/>
+                        <ConfigItem Name="outsidecolor" Type="11" Val="#ff000040"/>
+                        <ConfigItem Name="axistextcolor" Type="11" Val="#ffffff00"/>
+                        <ConfigItem Name="axisbackcolor" Type="11" Val="#ff000040"/>
+                    </ConfigItem>
+                    <ConfigItem Name="legend" Type="0">
+                        <ConfigItem Name="placement" Type="7" Val="0"/>
+                        <ConfigItem Name="color" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="areacolor" Type="11" Val="#ff000040"/>
+                        <ConfigItem Name="bordercolor" Type="11" Val="#ffc0c0c0"/>
+                        <ConfigItem Name="scale" Type="2" Val="1"/>
+                        <ConfigItem Name="showdate" Type="6" Val="1"/>
+                        <ConfigItem Name="showtype" Type="6" Val="0"/>
+                        <ConfigItem Name="showcenter" Type="6" Val="1"/>
+                        <ConfigItem Name="showspan" Type="6" Val="1"/>
+                        <ConfigItem Name="showrbw" Type="6" Val="1"/>
+                        <ConfigItem Name="showbins" Type="6" Val="1"/>
+                        <ConfigItem Name="showlocation" Type="6" Val="0"/>
+                        <ConfigItem Name="showantenna" Type="6" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="colormap" Type="0">
+                        <ConfigItem Name="opacity" Type="2" Val="1"/>
+                        <ConfigItem Name="low" Type="2" Val="0"/>
+                        <ConfigItem Name="high" Type="2" Val="1"/>
+                        <ConfigItem Name="control" Type="0">
+                            <ConfigItem Name="cvalue0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue3" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor3" Type="2" Val="0.5"/>
+                        </ConfigItem>
+                        <ConfigItem Name="num" Type="1" Val="1"/>
+                        <ConfigItem Name="repeat" Type="1" Val="1"/>
+                        <ConfigItem Name="mirror" Type="6" Val="0"/>
+                        <ConfigItem Name="centered" Type="6" Val="0"/>
+                        <ConfigItem Name="brightness" Type="2" Val="0"/>
+                        <ConfigItem Name="conrast" Type="2" Val="0"/>
+                        <ConfigItem Name="saturation" Type="2" Val="0"/>
+                        <ConfigItem Name="bandsize" Type="1" Val="0"/>
+                        <ConfigItem Name="palette" Type="7" Val="0"/>
+                        <ConfigItem Name="clipfloor" Type="6" Val="1"/>
+                        <ConfigItem Name="highlightceeil" Type="6" Val="0"/>
+                        <ConfigItem Name="autoadjust" Type="7" Val="1"/>
+                    </ConfigItem>
+                    <ConfigItem Name="markers" Type="0"/>
+                    <ConfigItem Name="detectorcolors" Type="0">
+                        <ConfigItem Name="opacity" Type="2" Val="1"/>
+                        <ConfigItem Name="low" Type="2" Val="0"/>
+                        <ConfigItem Name="high" Type="2" Val="1"/>
+                        <ConfigItem Name="control" Type="0">
+                            <ConfigItem Name="cvalue0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue3" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor3" Type="2" Val="0.5"/>
+                        </ConfigItem>
+                        <ConfigItem Name="num" Type="1" Val="1"/>
+                        <ConfigItem Name="repeat" Type="1" Val="1"/>
+                        <ConfigItem Name="mirror" Type="6" Val="0"/>
+                        <ConfigItem Name="centered" Type="6" Val="0"/>
+                        <ConfigItem Name="brightness" Type="2" Val="0"/>
+                        <ConfigItem Name="conrast" Type="2" Val="0"/>
+                        <ConfigItem Name="saturation" Type="2" Val="0"/>
+                        <ConfigItem Name="bandsize" Type="1" Val="0"/>
+                        <ConfigItem Name="palette" Type="7" Val="0"/>
+                        <ConfigItem Name="clipfloor" Type="6" Val="1"/>
+                        <ConfigItem Name="highlightceeil" Type="6" Val="0"/>
+                        <ConfigItem Name="autoadjust" Type="7" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+                <Inputs>
+                    <Input Name="Input_Spectran_Spectra_0" Title="Spectra" Owner="Block_Waterfall_0"/>
+                </Inputs>
+                <Outputs>
+                    <Output Name="Output_Waterfall_0" Title="Spectra" Owner="Block_Waterfall_0"/>
+                </Outputs>
+            </Base>
+            <Base Factory="Factory_Waterfall_3D" Name="Block_Waterfall_3D_0" Title="Waterfall 3D" IsRTSABlock="1">
+                <ConfigItem Name="Block_Waterfall_3D_0_config" Type="0">
+                    <ConfigItem Name="bProtectViewWidget" Type="6" Val="0"/>
+                    <ConfigItem Name="settings" Type="0">
+                        <ConfigItem Name="title" Type="3" Val="Waterfall 3D"/>
+                        <ConfigItem Name="shortDesc" Type="3" Val=""/>
+                    </ConfigItem>
+                    <ConfigItem Name="main" Type="0">
+                        <ConfigItem Name="compression" Type="2" Val="1"/>
+                        <ConfigItem Name="dynamiccompression" Type="6" Val="0"/>
+                        <ConfigItem Name="compressionmode" Type="7" Val="0"/>
+                        <ConfigItem Name="powerdomain" Type="6" Val="0"/>
+                        <ConfigItem Name="deviation" Type="2" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="view" Type="0">
+                        <ConfigItem Name="background" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="powerunit" Type="7" Val="0"/>
+                        <ConfigItem Name="lockpowerrange" Type="6" Val="0"/>
+                        <ConfigItem Name="lockpowerrangemin" Type="2" Val="-80"/>
+                        <ConfigItem Name="lockpowerrangemax" Type="2" Val="10"/>
+                        <ConfigItem Name="fontsize" Type="1" Val="10"/>
+                        <ConfigItem Name="gridmode" Type="7" Val="3"/>
+                        <ConfigItem Name="gridcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiscolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiswidth" Type="2" Val="1"/>
+                        <ConfigItem Name="axisscale" Type="2" Val="1"/>
+                        <ConfigItem Name="chartcolor" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="absolutetime" Type="6" Val="0"/>
+                        <ConfigItem Name="drawmode" Type="7" Val="0"/>
+                        <ConfigItem Name="showpowerfrequency" Type="6" Val="0"/>
+                        <ConfigItem Name="showpowertime" Type="6" Val="0"/>
+                        <ConfigItem Name="showcolorhistogram" Type="6" Val="0"/>
+                        <ConfigItem Name="showpeaks" Type="6" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="legend" Type="0">
+                        <ConfigItem Name="placement" Type="7" Val="0"/>
+                        <ConfigItem Name="color" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="areacolor" Type="11" Val="#ff000040"/>
+                        <ConfigItem Name="bordercolor" Type="11" Val="#ffc0c0c0"/>
+                        <ConfigItem Name="scale" Type="2" Val="1"/>
+                        <ConfigItem Name="showdate" Type="6" Val="1"/>
+                        <ConfigItem Name="showtype" Type="6" Val="0"/>
+                        <ConfigItem Name="showcenter" Type="6" Val="1"/>
+                        <ConfigItem Name="showspan" Type="6" Val="1"/>
+                        <ConfigItem Name="showrbw" Type="6" Val="1"/>
+                        <ConfigItem Name="showbins" Type="6" Val="1"/>
+                        <ConfigItem Name="showlocation" Type="6" Val="0"/>
+                        <ConfigItem Name="showantenna" Type="6" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="colormap" Type="0">
+                        <ConfigItem Name="opacity" Type="2" Val="1"/>
+                        <ConfigItem Name="low" Type="2" Val="0"/>
+                        <ConfigItem Name="high" Type="2" Val="1"/>
+                        <ConfigItem Name="control" Type="0">
+                            <ConfigItem Name="cvalue0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor0" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor1" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor2" Type="2" Val="0.5"/>
+                            <ConfigItem Name="cvalue3" Type="2" Val="0.5"/>
+                            <ConfigItem Name="ccolor3" Type="2" Val="0.5"/>
+                        </ConfigItem>
+                        <ConfigItem Name="num" Type="1" Val="1"/>
+                        <ConfigItem Name="repeat" Type="1" Val="1"/>
+                        <ConfigItem Name="mirror" Type="6" Val="0"/>
+                        <ConfigItem Name="centered" Type="6" Val="0"/>
+                        <ConfigItem Name="brightness" Type="2" Val="0"/>
+                        <ConfigItem Name="conrast" Type="2" Val="0"/>
+                        <ConfigItem Name="saturation" Type="2" Val="0"/>
+                        <ConfigItem Name="bandsize" Type="1" Val="0"/>
+                        <ConfigItem Name="palette" Type="7" Val="0"/>
+                        <ConfigItem Name="clipfloor" Type="6" Val="1"/>
+                        <ConfigItem Name="highlightceeil" Type="6" Val="0"/>
+                        <ConfigItem Name="autoadjust" Type="7" Val="1"/>
+                    </ConfigItem>
+                    <ConfigItem Name="orientation3d" Type="0">
+                        <ConfigItem Name="defaults" Type="7" Val="0"/>
+                        <ConfigItem Name="offsetx" Type="2" Val="0"/>
+                        <ConfigItem Name="offsety" Type="2" Val="0"/>
+                        <ConfigItem Name="offsetz" Type="2" Val="0"/>
+                        <ConfigItem Name="scalex" Type="2" Val="0"/>
+                        <ConfigItem Name="scaley" Type="2" Val="0"/>
+                        <ConfigItem Name="scalez" Type="2" Val="0"/>
+                        <ConfigItem Name="rotatex" Type="2" Val="0"/>
+                        <ConfigItem Name="rotatey" Type="2" Val="0"/>
+                        <ConfigItem Name="rotatez" Type="2" Val="0"/>
+                        <ConfigItem Name="orthogonal" Type="6" Val="0"/>
+                        <ConfigItem Name="enableautorotate" Type="6" Val="0"/>
+                        <ConfigItem Name="autorotatey" Type="2" Val="0"/>
+                        <ConfigItem Name="lighty" Type="2" Val="30"/>
+                        <ConfigItem Name="lightx" Type="2" Val="20"/>
+                    </ConfigItem>
+                    <ConfigItem Name="cursor3d" Type="0">
+                        <ConfigItem Name="cursorxmode" Type="7" Val="0"/>
+                        <ConfigItem Name="cursorymode" Type="7" Val="0"/>
+                        <ConfigItem Name="cursorzmode" Type="7" Val="0"/>
+                        <ConfigItem Name="cursorcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="cursoralpha" Type="2" Val="0.6"/>
+                        <ConfigItem Name="cursorclip" Type="7" Val="0"/>
+                        <ConfigItem Name="cursortcolor" Type="11" Val="#ffffffff"/>
+                    </ConfigItem>
+                    <ConfigItem Name="markers" Type="0">
+                        <ConfigItem Name="color" Type="11" Val="#ff0080ff"/>
+                        <ConfigItem Name="textcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="showname" Type="6" Val="1"/>
+                        <ConfigItem Name="showindex" Type="6" Val="1"/>
+                        <ConfigItem Name="showxpos" Type="6" Val="0"/>
+                        <ConfigItem Name="showypos" Type="6" Val="0"/>
+                        <ConfigItem Name="showvalue" Type="6" Val="0"/>
+                        <ConfigItem Name="msize" Type="2" Val="16"/>
+                        <ConfigItem Name="simpleconfig" Type="6" Val="1"/>
+                        <ConfigItem Name="msymbolvv" Type="7" Val="1"/>
+                        <ConfigItem Name="msymbolvr" Type="7" Val="1"/>
+                        <ConfigItem Name="msymbolvf" Type="7" Val="1"/>
+                        <ConfigItem Name="msymbolrr" Type="7" Val="1"/>
+                        <ConfigItem Name="msymbolrf" Type="7" Val="1"/>
+                        <ConfigItem Name="showxline" Type="6" Val="0"/>
+                        <ConfigItem Name="showyline" Type="6" Val="0"/>
+                        <ConfigItem Name="numpeaks" Type="1" Val="0"/>
+                        <ConfigItem Name="sortorderpeaks" Type="7" Val="0"/>
+                        <ConfigItem Name="excursion" Type="2" Val="5"/>
+                        <ConfigItem Name="threshold" Type="2" Val="-90"/>
+                        <ConfigItem Name="separation" Type="2" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+                <Inputs>
+                    <Input Name="Input_Spectran_Spectra_0" Title="Spectra" Owner="Block_Waterfall_3D_0"/>
+                </Inputs>
+            </Base>
+            <Base Factory="Factory_Spectrum" Name="Block_Spectrum_0" Title="Spectrum" IsRTSABlock="1">
+                <ConfigItem Name="Block_Spectrum_0_config" Type="0">
+                    <ConfigItem Name="bProtectViewWidget" Type="6" Val="0"/>
+                    <ConfigItem Name="settings" Type="0">
+                        <ConfigItem Name="title" Type="3" Val="Spectrum"/>
+                        <ConfigItem Name="shortDesc" Type="3" Val=""/>
+                    </ConfigItem>
+                    <ConfigItem Name="main" Type="0">
+                        <ConfigItem Name="compression" Type="2" Val="1"/>
+                        <ConfigItem Name="dynamiccompression" Type="6" Val="0"/>
+                        <ConfigItem Name="compressionmode" Type="7" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="view" Type="0">
+                        <ConfigItem Name="background" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="powerunit" Type="7" Val="0"/>
+                        <ConfigItem Name="lockpowerrange" Type="6" Val="0"/>
+                        <ConfigItem Name="lockpowerrangemin" Type="2" Val="-80"/>
+                        <ConfigItem Name="lockpowerrangemax" Type="2" Val="10"/>
+                        <ConfigItem Name="logfrequency" Type="7" Val="0"/>
+                        <ConfigItem Name="fontsize" Type="1" Val="10"/>
+                        <ConfigItem Name="profile" Type="13" Val=""/>
+                        <ConfigItem Name="acceptprofile" Type="6" Val="0"/>
+                        <ConfigItem Name="gridmode" Type="7" Val="3"/>
+                        <ConfigItem Name="gridcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiscolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="axiswidth" Type="2" Val="1"/>
+                        <ConfigItem Name="axisscale" Type="2" Val="1"/>
+                        <ConfigItem Name="chartcolor" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="absolutetime" Type="6" Val="0"/>
+                        <ConfigItem Name="showpowertime" Type="6" Val="0"/>
+                        <ConfigItem Name="showpeakstable" Type="7" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="cursor" Type="0">
+                        <ConfigItem Name="mousemode" Type="9" Val="0"/>
+                        <ConfigItem Name="showoverlay2" Type="7" Val="1"/>
+                        <ConfigItem Name="axislabels" Type="6" Val="1"/>
+                        <ConfigItem Name="centered" Type="6" Val="0"/>
+                        <ConfigItem Name="crosswidth" Type="2" Val="1"/>
+                        <ConfigItem Name="borderwidth" Type="2" Val="0"/>
+                        <ConfigItem Name="outsideblend" Type="2" Val="0.3"/>
+                        <ConfigItem Name="backcolor" Type="11" Val="#ff000000"/>
+                        <ConfigItem Name="frontcolor" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="bordercolor" Type="11" Val="#ffffff00"/>
+                        <ConfigItem Name="outsidecolor" Type="11" Val="#ff000040"/>
+                        <ConfigItem Name="axistextcolor" Type="11" Val="#ffffff00"/>
+                        <ConfigItem Name="axisbackcolor" Type="11" Val="#ff000040"/>
+                    </ConfigItem>
+                    <ConfigItem Name="legend" Type="0">
+                        <ConfigItem Name="placement" Type="7" Val="0"/>
+                        <ConfigItem Name="color" Type="11" Val="#ffffffff"/>
+                        <ConfigItem Name="areacolor" Type="11" Val="#ff000040"/>
+                        <ConfigItem Name="bordercolor" Type="11" Val="#ffc0c0c0"/>
+                        <ConfigItem Name="scale" Type="2" Val="1"/>
+                        <ConfigItem Name="showdate" Type="6" Val="1"/>
+                        <ConfigItem Name="showtype" Type="6" Val="0"/>
+                        <ConfigItem Name="showcenter" Type="6" Val="1"/>
+                        <ConfigItem Name="showspan" Type="6" Val="1"/>
+                        <ConfigItem Name="showrbw" Type="6" Val="1"/>
+                        <ConfigItem Name="showbins" Type="6" Val="1"/>
+                        <ConfigItem Name="showlocation" Type="6" Val="0"/>
+                        <ConfigItem Name="showantenna" Type="6" Val="0"/>
+                    </ConfigItem>
+                    <ConfigItem Name="tracelegend" Type="0">
+                        <ConfigItem Name="placement" Type="7" Val="4"/>
+                        <ConfigItem Name="details" Type="7" Val="1"/>
+                    </ConfigItem>
+                    <ConfigItem Name="traces" Type="0" Expanded="1">
+                        <ConfigItem Name="trace#clearwrite#624492392" Type="0">
+                            <ConfigItem Name="name" Type="3" Val="Clear/Write"/>
+                            <ConfigItem Name="visible" Type="6" Val="1"/>
+                            <ConfigItem Name="color" Type="11" Val="#ff19e619"/>
+                            <ConfigItem Name="linewidth" Type="2" Val="0.5"/>
+                            <ConfigItem Name="opacity" Type="2" Val="1"/>
+                            <ConfigItem Name="interpolation" Type="7" Val="2"/>
+                            <ConfigItem Name="limit" Type="1" Val="100"/>
+                            <ConfigItem Name="persistence" Type="2" Val="0.016"/>
+                            <ConfigItem Name="mergemode" Type="7" Val="0"/>
+                        </ConfigItem>
+                        <ConfigItem Name="trace#maxhold#3538331292" Type="0">
+                            <ConfigItem Name="name" Type="3" Val="Max Hold"/>
+                            <ConfigItem Name="visible" Type="6" Val="1"/>
+                            <ConfigItem Name="color" Type="11" Val="#ffff0000"/>
+                            <ConfigItem Name="linewidth" Type="2" Val="2"/>
+                            <ConfigItem Name="opacity" Type="2" Val="0.3"/>
+                            <ConfigItem Name="interpolation" Type="7" Val="2"/>
+                            <ConfigItem Name="showname" Type="7" Val="0"/>
+                            <ConfigItem Name="smoothmode" Type="7" Val="0"/>
+                            <ConfigItem Name="smoothsize" Type="1" Val="0"/>
+                            <ConfigItem Name="maxsamples" Type="1" Val="0"/>
+                        </ConfigItem>
+                    </ConfigItem>
+                    <ConfigItem Name="markers" Type="0"/>
+                </ConfigItem>
+                <Inputs>
+                    <Input Name="Input_Spectran_Spectra_0" Title="Spectra" Owner="Block_Spectrum_0"/>
+                </Inputs>
+            </Base>
+        </Bases>
+        <Docks>
+            <Dock BaseName="Base_BlockEditor">
+                <DockWidget RectMax="0;0;0;0">
+                    <DockWidgetChild SplitterHorz="AAAA/wAAAAEAAAACAAABVAAAASwB/////wEAAAABAA==">
+                        <Widgets>
+                            <ConfigurationWidget/>
+                            <ViewWidget>
+                                <BlockEditorWidget SplitterHorz="AAAA/wAAAAEAAAACAAABVAAAAfQB/////wEAAAABAA==">
+                                    <BlockEditorBlockContainer ZoomFactor="1"/>
+                                    <BlockEditorTreeWidget>
+                                        <Categories>
+                                            <Category Name="catControl" Expanded="1"/>
+                                            <Category Name="catDevices" Expanded="1"/>
+                                            <Category Name="catDrone Detection" Expanded="1"/>
+                                            <Category Name="catGeneral Signal Viewing" Expanded="1"/>
+                                            <Category Name="catIQ Data" Expanded="1"/>
+                                            <Category Name="catIn / Out" Expanded="1"/>
+                                            <Category Name="catMain" Expanded="1"/>
+                                            <Category Name="catRF Measurements" Expanded="1"/>
+                                            <Category Name="catTest" Expanded="1"/>
+                                        </Categories>
+                                    </BlockEditorTreeWidget>
+                                </BlockEditorWidget>
+                            </ViewWidget>
+                        </Widgets>
+                    </DockWidgetChild>
+                </DockWidget>
+                <ConfigItem Name="MultiViewDock_Base_BlockEditor" Type="0">
+                    <ConfigItem Name="CIG_MultiViewDockWidget" Type="0">
+                        <ConfigItem Name="CIG_MultiViewDockWidgetChild" Type="0"/>
+                        <ConfigItem Name="ConfigurationVisible" Type="6" Val="0"/>
+                        <ConfigItem Name="ViewVisible" Type="6" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+            </Dock>
+            <Dock BaseName="Block_FileReader_0">
+                <DockWidget RectMax="0;0;0;0">
+                    <DockWidgetChild SplitterHorz="AAAA/wAAAAEAAAACAAABVAAAASwB/////wEAAAABAA==">
+                        <Widgets>
+                            <ConfigurationWidget/>
+                            <ViewWidget/>
+                        </Widgets>
+                    </DockWidgetChild>
+                </DockWidget>
+                <ConfigItem Name="MultiViewDock_Block_FileReader_0" Type="0">
+                    <ConfigItem Name="CIG_MultiViewDockWidget" Type="0">
+                        <ConfigItem Name="CIG_MultiViewDockWidgetChild" Type="0"/>
+                        <ConfigItem Name="ConfigurationVisible" Type="6" Val="1"/>
+                        <ConfigItem Name="ViewVisible" Type="6" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+            </Dock>
+            <Dock BaseName="Block_HTTPServer_0">
+                <DockWidget RectMax="0;0;0;0">
+                    <DockWidgetChild SplitterHorz="AAAA/wAAAAEAAAACAAABVAAAASwB/////wEAAAABAA==">
+                        <Widgets>
+                            <ConfigurationWidget/>
+                            <ViewWidget/>
+                        </Widgets>
+                    </DockWidgetChild>
+                </DockWidget>
+                <ConfigItem Name="MultiViewDock_Block_HTTPServer_0" Type="0">
+                    <ConfigItem Name="CIG_MultiViewDockWidget" Type="0">
+                        <ConfigItem Name="CIG_MultiViewDockWidgetChild" Type="0"/>
+                        <ConfigItem Name="ConfigurationVisible" Type="6" Val="1"/>
+                        <ConfigItem Name="ViewVisible" Type="6" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+            </Dock>
+            <Dock BaseName="Block_Waterfall_0">
+                <DockWidget RectMax="0;0;0;0">
+                    <DockWidgetChild SplitterHorz="AAAA/wAAAAEAAAACAAABVAAAASwB/////wEAAAABAA==">
+                        <Widgets>
+                            <ConfigurationWidget/>
+                            <ViewWidget/>
+                        </Widgets>
+                    </DockWidgetChild>
+                </DockWidget>
+                <ConfigItem Name="MultiViewDock_Block_Waterfall_0" Type="0">
+                    <ConfigItem Name="CIG_MultiViewDockWidget" Type="0">
+                        <ConfigItem Name="CIG_MultiViewDockWidgetChild" Type="0"/>
+                        <ConfigItem Name="ConfigurationVisible" Type="6" Val="0"/>
+                        <ConfigItem Name="ViewVisible" Type="6" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+            </Dock>
+            <Dock BaseName="Block_Waterfall_3D_0">
+                <DockWidget RectMax="0;0;0;0">
+                    <DockWidgetChild SplitterHorz="AAAA/wAAAAEAAAACAAABVAAAASwB/////wEAAAABAA==">
+                        <Widgets>
+                            <ConfigurationWidget/>
+                            <ViewWidget/>
+                        </Widgets>
+                    </DockWidgetChild>
+                </DockWidget>
+                <ConfigItem Name="MultiViewDock_Block_Waterfall_3D_0" Type="0">
+                    <ConfigItem Name="CIG_MultiViewDockWidget" Type="0">
+                        <ConfigItem Name="CIG_MultiViewDockWidgetChild" Type="0"/>
+                        <ConfigItem Name="ConfigurationVisible" Type="6" Val="0"/>
+                        <ConfigItem Name="ViewVisible" Type="6" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+            </Dock>
+            <Dock BaseName="Block_Spectrum_0">
+                <DockWidget RectMax="0;0;0;0">
+                    <DockWidgetChild SplitterHorz="AAAA/wAAAAEAAAACAAABVAAAASwB/////wEAAAABAA==">
+                        <Widgets>
+                            <ConfigurationWidget/>
+                            <ViewWidget/>
+                        </Widgets>
+                    </DockWidgetChild>
+                </DockWidget>
+                <ConfigItem Name="MultiViewDock_Block_Spectrum_0" Type="0">
+                    <ConfigItem Name="CIG_MultiViewDockWidget" Type="0">
+                        <ConfigItem Name="CIG_MultiViewDockWidgetChild" Type="0"/>
+                        <ConfigItem Name="ConfigurationVisible" Type="6" Val="0"/>
+                        <ConfigItem Name="ViewVisible" Type="6" Val="1"/>
+                    </ConfigItem>
+                </ConfigItem>
+            </Dock>
+        </Docks>
+        <DockLayouts>
+            <MainLayout LayoutMode="0" LayoutOrientation="Horz" LayoutMax="1">
+                <DockItems>
+                    <Item Dock="Base_BlockEditor" Type="DockItem" Visible="0" Focused="0" DSID="38" Rect="0;0;100;30"/>
+                    <Item Dock="Block_FileReader_0" Type="DockItem" Visible="1" Focused="1" DSID="43" Rect="0;0;0;0"/>
+                    <Item Dock="Block_HTTPServer_0" Type="DockItem" Visible="1" Focused="0" DSID="49" Rect="0;0;0;0"/>
+                    <Item Dock="Block_Waterfall_0" Type="DockItem" Visible="1" Focused="0" DSID="51" Rect="0;0;0;0"/>
+                    <Item Dock="Block_Waterfall_3D_0" Type="DockItem" Visible="1" Focused="0" DSID="53" Rect="0;0;0;0"/>
+                    <Item Dock="Block_Spectrum_0" Type="DockItem" Visible="1" Focused="0" DSID="55" Rect="0;0;0;0"/>
+                </DockItems>
+                <DockGroupItems>
+                    <DockGroupItem Dock="Block_FileReader_0"/>
+                    <DockGroupItem Dock="Block_HTTPServer_0"/>
+                    <DockGroupItem Dock="Block_Waterfall_0"/>
+                    <DockGroupItem Dock="Block_Waterfall_3D_0"/>
+                    <DockGroupItem Dock="Block_Spectrum_0"/>
+                </DockGroupItems>
+                <RootItemContainers>
+                    <RootItemContainer Type="RootItemContainer" Visible="0" DSID="40" Rect="1;1;1918;817" Orientation="Horz" Sizes="1918">
+                        <ItemContainers>
+                            <ItemContainer Type="ItemContainer" Visible="0" DSID="45" Rect="0;0;1918;817" GroupName="rtsablock" Orientation="Horz" Sizes="957;956">
+                                <Items>
+                                    <Item Type="ItemContainer" Visible="0" DSID="271" Rect="0;0;957;817" Orientation="Vert" Sizes="520;293">
+                                        <Items>
+                                            <Item Type="DockGroup" Visible="0" DSID="46" Rect="0;0;957;520" Orientation="Horz" DockSelect="Block_FileReader_0">
+                                                <DockGroupItems>
+                                                    <DockGroupItem Dock="Block_FileReader_0" Type="DockGroupItem" Visible="1" DSID="273" Rect="1;1;955;492"/>
+                                                </DockGroupItems>
+                                            </Item>
+                                            <Item Type="DockGroup" Visible="0" DSID="55" Rect="0;524;957;293" Orientation="Horz" DockSelect="Block_HTTPServer_0">
+                                                <DockGroupItems>
+                                                    <DockGroupItem Dock="Block_HTTPServer_0" Type="DockGroupItem" Visible="1" DSID="275" Rect="1;1;955;265"/>
+                                                </DockGroupItems>
+                                            </Item>
+                                        </Items>
+                                    </Item>
+                                    <Item Type="ItemContainer" Visible="0" DSID="275" Rect="962;0;956;817" Orientation="Vert" Sizes="242;284;283">
+                                        <Items>
+                                            <Item Type="DockGroup" Visible="0" DSID="270" Rect="0;0;956;242" Orientation="Horz" DockSelect="Block_Spectrum_0">
+                                                <DockGroupItems>
+                                                    <DockGroupItem Dock="Block_Spectrum_0" Type="DockGroupItem" Visible="1" DSID="278" Rect="1;1;954;214"/>
+                                                </DockGroupItems>
+                                            </Item>
+                                            <Item Type="DockGroup" Visible="0" DSID="274" Rect="0;246;956;284" Orientation="Horz" DockSelect="Block_Waterfall_0">
+                                                <DockGroupItems>
+                                                    <DockGroupItem Dock="Block_Waterfall_0" Type="DockGroupItem" Visible="1" DSID="280" Rect="1;1;954;256"/>
+                                                </DockGroupItems>
+                                            </Item>
+                                            <Item Type="DockGroup" Visible="0" DSID="278" Rect="0;534;956;283" Orientation="Horz" DockSelect="Block_Waterfall_3D_0">
+                                                <DockGroupItems>
+                                                    <DockGroupItem Dock="Block_Waterfall_3D_0" Type="DockGroupItem" Visible="1" DSID="282" Rect="1;1;954;255"/>
+                                                </DockGroupItems>
+                                            </Item>
+                                        </Items>
+                                    </Item>
+                                </Items>
+                            </ItemContainer>
+                        </ItemContainers>
+                    </RootItemContainer>
+                </RootItemContainers>
+                <FloatingItemContainers/>
+            </MainLayout>
+            <RibbonLayout LayoutMode="1" LayoutOrientation="Horz" LayoutMax="1">
+                <DockItems>
+                    <Item Dock="ribbonTabRTSA" Type="DockItem" Visible="1" Focused="0" DSID="3" Rect="0;0;0;0"/>
+                    <Item Dock="Block_FileReader_0" Type="DockItem" Visible="1" Focused="1" DSID="47" Rect="0;0;0;0"/>
+                </DockItems>
+                <DockGroupItems>
+                    <DockGroupItem Dock="ribbonTabRTSA"/>
+                    <DockGroupItem Dock="Block_FileReader_0"/>
+                </DockGroupItems>
+                <RootItemContainers>
+                    <RootItemContainer Type="RootItemContainer" Visible="0" DSID="5" Rect="0;1;1920;139" Orientation="Horz" Sizes="1920">
+                        <ItemContainers>
+                            <ItemContainer Type="ItemContainer" Visible="0" DSID="6" Rect="0;0;1920;139" GroupName="ribbon" Orientation="Horz" Sizes="1920">
+                                <Items>
+                                    <Item Type="DockGroup" Visible="0" DSID="7" Rect="0;0;1920;139" Orientation="Horz" DockSelect="Block_FileReader_0">
+                                        <DockGroupItems>
+                                            <DockGroupItem Dock="ribbonTabRTSA" Type="DockGroupItem" Visible="1" DSID="286" Rect="1;1;1918;111"/>
+                                            <DockGroupItem Dock="Block_FileReader_0" Type="DockGroupItem" Visible="1" DSID="287" Rect="1;1;1918;111"/>
+                                        </DockGroupItems>
+                                    </Item>
+                                </Items>
+                            </ItemContainer>
+                        </ItemContainers>
+                    </RootItemContainer>
+                </RootItemContainers>
+                <FloatingItemContainers/>
+            </RibbonLayout>
+        </DockLayouts>
+    </Data>
+</Mission>
